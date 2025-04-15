@@ -1,4 +1,4 @@
-# Semantic Segmentation in Urban Road Scenes
+# Semantic Segmentation for Urban Road Scenes
 
 This repository implements a **semantic segmentation** pipeline for urban road scenes using the **U-Net** architecture. The model is trained and tested on the **Indian Driving Dataset (IDD)**, with a focus on robust real-world performance.  
 
