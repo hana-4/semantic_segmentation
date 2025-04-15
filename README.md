@@ -29,18 +29,9 @@ This repository implements a **semantic segmentation** pipeline for urban road s
 
 ## Sample Outputs
 
-Here are some sample outputs showing the **original image**, **ground truth**, and **predicted mask** for the semantic segmentation task:
+Here is a sample outputs showing the **original image**, **ground truth**, and **predicted mask** for the semantic segmentation task:
 
 ![Sample Output](sample.png)
 
-- **Original Image:** The input image from the Indian Driving Dataset (IDD).  
-- **Ground Truth:** The manually annotated mask representing the correct segmentation labels.  
-- **Predicted Mask:** The segmentation mask predicted by the trained U-Net model.
 
-## Setup Instructions
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/yourusername/semantic_segmentation.git
-cd semantic_segmentation
 
