@@ -1,20 +1,21 @@
 # Semantic Segmentation for Urban Road Scenes
 
-This repository implements a **semantic segmentation** pipeline for urban road scenes using the **U-Net** architecture. The model is trained and tested on the **Indian Driving Dataset (IDD)**, with a focus on robust real-world performance.  
+This repository presents a **semantic segmentation** pipeline for urban road scenes using the **U-Net** architecture. The model is trained and evaluated on the **Indian Driving Dataset (IDD)**, with a focus on achieving robust performance under diverse real-world conditions. The project achieved high Intersection over Union (IoU) for key classes such as **Road (85.49%)** and **Sky (83.14%)**.
 
 ## Overview
-- The pipeline leverages **U-Net** for pixel-wise classification of road scenes.  
-- The model is trained to segment urban road scenes into various classes such as road, vehicles, pedestrians, traffic signs, and more.  
-- **Data augmentation** techniques were applied to improve robustness against real-world variations such as lighting, occlusions, and weather conditions.
+
+- Implements a **U-Net** based architecture for pixel-level classification of road scene imagery.  
+- The model segments scenes into **21 unique classes** including road, vehicles, pedestrians, sky, traffic signs, and more.  
+- Integrates **data augmentation** strategies to improve generalization across variations in lighting, occlusions, and weather conditions.
 
 ## Dataset
-- The **Indian Driving Dataset (IDD)** captures the uniqueness of the Indian driving scene. It includes various types of road conditions, traffic situations, and typical elements found on Indian roads such as animals, auto-rickshaws, etc.  
-- The dataset consists of images obtained from a front-facing camera mounted on a car, along with corresponding annotations. The car was driven in and around **Hyderabad** and **Bangalore**, including their outskirts.  
-- This implementation makes use of **21 unique classes** available in the dataset annotations.  
 
+- The **Indian Driving Dataset (IDD)** is tailored for semantic understanding of unstructured driving environments in India.  
+- Captured using a front-facing camera mounted on a car, the dataset covers urban and semi-urban areas in and around **Hyderabad** and **Bangalore**.  
+- Annotations reflect the complexity of Indian roads, including elements such as auto-rickshaws, animals, and diverse traffic behaviors.
 
 ## Sample Output
 
-Here is a sample output showing the **original image**, **ground truth**, and **predicted mask** for the semantic segmentation task:
+Below is a sample output illustrating the **original input**, **ground truth annotation**, and the **model’s predicted segmentation mask**:
 
 ![Sample Output](sample.png)
