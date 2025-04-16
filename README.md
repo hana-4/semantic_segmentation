@@ -1,6 +1,7 @@
 # Semantic Segmentation for Urban Road Scenes
 
-This repository presents a **semantic segmentation** pipeline for urban road scenes using the **U-Net** architecture. The model is trained and evaluated on the **Indian Driving Dataset (IDD)**, with a focus on achieving robust performance under diverse real-world conditions. The project achieved high Intersection over Union (IoU) for key classes such as **Road (85.49%)**.
+This repository presents a **semantic segmentation** pipeline for urban road scenes using the **U-Net** architecture. The model is trained and evaluated on the **Indian Driving Dataset (IDD)**, with a focus on achieving robust performance under diverse real-world conditions. The project achieved high Intersection over Union (IoU) for key classes such as **Road (85.49%)**. The training and testing for the U-Net model is done in the notebook [**semantic_segmentation.ipynb**](./semantic_segmentation.ipynb).  
+It includes data preprocessing, model architecture, training loop, and evaluation on the validation set.
 
 ## Overview
 
